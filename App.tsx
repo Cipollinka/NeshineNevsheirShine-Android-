@@ -1,8 +1,8 @@
 import React from 'react';
-import NeshineStack from './StackNavigator';
+import AppManager from './src/AppManager/AppManager';
 
 function App() {
-  return <NeshineStack />;
+  return <AppManager />;
 }
 
 export default App;
